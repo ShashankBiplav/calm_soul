@@ -10,14 +10,13 @@ class Meditation {
   final String colorA;
   final String colorB;
 
-Meditation({
- @required this.id,
- @required this.name,
- @required this.description,
- @required this.melodies,
- @required this.illustrationImageUrl,
- @required this.baseQuote,
- @required this.colorA,
- @required this.colorB
-});
+  Meditation(
+      {@required this.id,
+      @required this.name,
+      @required this.description,
+      @required this.melodies,
+      @required this.illustrationImageUrl,
+      @required this.baseQuote,
+      @required this.colorA,
+      @required this.colorB});
 }
